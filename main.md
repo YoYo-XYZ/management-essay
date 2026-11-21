@@ -191,16 +191,6 @@ The improved system would preserve the simplicity of gThanks while making recogn
 
 ## Conclusion
 
-In summary, gamification can influence employee behavior and gradually change organizational culture. When companies consistently reward collaboration, knowledge sharing, and proactively helping colleagues, employees gain a clearer understanding of what the company values. Google's gThanks, through Kudos and Peer Bonuses, transforms values ​​like collaboration and mutual support into every day, visible behaviors, thus primarily strengthening Google's social culture.
-
-However, gThanks is not without its problems. Public recognition can lead to comparisons among employees, and recognition results can be influenced by interpersonal relationships, popularity, and job visibility. This can make some employees feel their efforts are not being recognized or even question the fairness of the system. High usage does not necessarily mean the system will improve actual work performance.
-
-Google allows employees to freely choose private, team, or public recognition, linking each commendation to company values ​​such as collaboration, innovation, mentoring colleagues, or knowledge sharing. The company should also encourage cross-team recognition, avoid using leaderboards, and regularly understand employees' perceptions of the system's fairness. In addition to counting Kudos, Google should also measure how many different employees receive recognition, the proportion of cross-team commendations, and employee satisfaction and collaboration.
-
-The most important lesson from this case is that gamification is merely a management tool. Its positive impact depends not on the number of points, rewards, or badges, but on whether the system is fair, aligns with the company's true goals, and whether employees are willing to accept and participate.
-
-New version by Albert:
-
 This report identifies two interconnected lessons regarding gamification in engineering management. Initially, the behaviors that gamification evaluates, promotes, and rewards have the potential to impact organizational culture. The Case F examples indicate that games may facilitate learning, interpersonal connection, and social responsibility. Nevertheless, Disney's productivity-tracking example demonstrates that employees may perceive gamification as a form of pressure rather than encouragement. Therefore, its cultural influence is contingent upon the design, implementation, alignment with the intended values, and employee.
 
 Second, effectiveness cannot be demonstrated solely through participation. According to the Google analysis, gThanks has experienced an increase in usage and offers a convenient mechanism for peer recognition. Nevertheless, the usage evidence examined in this report fails to demonstrate enhancements in productivity, engagement, or collaboration. Rather than being treated as assumed outcomes at Google, popularity, social comparison, and job visibility should be regarded as potential risks that necessitate investigation.
