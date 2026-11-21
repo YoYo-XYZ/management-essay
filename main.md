@@ -189,7 +189,7 @@ Google should measure effectiveness using participation rates, number of unique 
 
 The improved system would preserve the simplicity of gThanks while making recognition fairer, less competitive and more closely connected to Google's organisational goals and culture.
 
-## Conclusion
+## Conclusion1
 
 This report identifies two interconnected lessons regarding gamification in engineering management. Initially, the behaviors that gamification evaluates, promotes, and rewards have the potential to impact organizational culture. The Case F examples indicate that games may facilitate learning, interpersonal connection, and social responsibility. Nevertheless, Disney's productivity-tracking example demonstrates that employees may perceive gamification as a form of pressure rather than encouragement. Therefore, its cultural influence is contingent upon the design, implementation, alignment with the intended values, and employee.
 
