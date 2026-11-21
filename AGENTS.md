@@ -1,22 +1,35 @@
-# Repository Guidelines
+## Project Guidelines
 
-## Project structure and module organization
+This workspace is for **ENG3003 Engineering Management Group Project (Case F: Gamification)**.
 
-This workspace contains ENG3003 Engineering Management coursework about Case F, workplace gamification.
+- **Project description:** Use `Group20-Report.md` to draft a formal group case study report of up to 10 pages that answers all five questions on workplace gamification using case evidence, engineering management theory, and external research. Submit a separate individual reflection paper of about 1-2 pages on how your group planned, organised, monitored progress, and led the project.
+- **Project goal:** Complete the assignment according to acheive high grading scores.
 
-- **Presentation is already done. The focus of this project is only group report and individual report**
+## Project Resources
 
-- use `student-writing` skill when writing the report
-- `Case F - Gamification.pdf` contains the case study.
-- `ENG3003_AY2627_ASM 1.pdf` contains the assignment brief.
-- `ENG3003_L*.pdf` files contain lecture material. Preserve their filenames so existing source references remain usable.
+- **Assignment requirements:** `Assinment Requirement.pdf` is the single source of truth for assignment description.
+- **Assingment grading criteria** `Assinment Requirement.pdf` is the source of truth for the grading criteria.
+- **Lecture slides Reference material:** Use lecture slides in `lecture-slides/ENG3003_L*.pdf` as supplementary reference material.
+- **Reference material:** `Case F - Gamification.pdf` is the main source for reference content, used as the main source of knowledge.
 
-Keep report edits in the main Markdown file `Group20-Report.md`. Treat the supplied PDFs as reference material and preserve their originals.
+## Writing Style and Narrative and Tone
 
-## Writing style and naming conventions
+- **Student writing:** Use the `student-writing` skill to write naturally as a second-year university student.
+- **Speak like human:** school\unslop-writing\SKILL.md
+- **Natural undergraduate writing:** Use simple vocabulary, straightforward grammar, and reasonably not too long sentences. Minor grammatical imperfections are acceptable. Avoid overly polished or sophisticated language.
+- **Clear and cohesive:** Keep ideas logically connected and easy to follow. Avoid repetition, generic statements.
 
-Support factual claims with identifiable sources. For lecture references, include the exact PDF filename and page number. Keep in-text citations consistent with the reference list.
+### If personal essays add
 
-## Validation guidelines
+- **Student perspective:** Write naturally in the first person as me, a second-year university student, reflecting on what I learned, how my thinking changed, and why it matters.
+- **Grounded in theory:** Connect personal reflections to relevant lecture concepts without forcing connections or merely restating theory.
+- **Critical and thoughtful:** Question assumptions, form my own conclusions, and explore deeper insights and real-world implications rather than simply repeating or agreeing with the reference content.
 
-Check each revised answer against the assignment brief and case study. Verify quotations, page numbers, and citations against their sources. Confirm every contents link reaches its heading. No automated coverage requirement exists.
+### If reports, including lab reports add
+
+- **Grounded in theory:** Connect the report to relevant concepts from `lecture-slides/ENG3003_L*.pdf`.
+
+## Conventions
+
+- **Draft location:** Make essay edits in the main Markdown file, typically `main.md`.
+- **Citations:** Support factual claims with traceable sources. For lecture slides, cite the exact filename and page number.
