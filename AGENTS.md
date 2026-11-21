@@ -4,12 +4,14 @@
 
 This workspace contains ENG3003 Engineering Management coursework about Case F, workplace gamification.
 
+- **Presentation is already done. The focus of this project is only group report and individual report**
+
+- use `student-writing` skill when writing the report
 - `Case F - Gamification.pdf` contains the case study.
 - `ENG3003_AY2627_ASM 1.pdf` contains the assignment brief.
 - `ENG3003_L*.pdf` files contain lecture material. Preserve their filenames so existing source references remain usable.
-- `note_for_Q1` is a scratch file for Question 1 notes.
 
-Keep report edits in the main Markdown file. Treat the supplied PDFs as reference material and preserve their originals.
+Keep report edits in the main Markdown file `Group20-Report.md`. Treat the supplied PDFs as reference material and preserve their originals.
 
 ## Writing style and naming conventions
 
