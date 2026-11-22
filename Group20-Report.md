@@ -32,10 +32,10 @@ Group 20
   - [Question 1](#question-1)
   - [Question 2](#question-2)
   - [Question 3](#question-3)
-    - [3.1 Workplace Example: Advantages and Disadvantages](#31-workplace-example-advantages-and-disadvantages)
-    - [3.2 Positive Impacts](#32-positive-impacts)
-    - [3.3 Negative Impacts](#33-negative-impacts)
-    - [3.4 Conclusion](#34-conclusion)
+    - [3.1 Workplace Examples](#31-workplace-examples)
+    - [3.2 Positive Effects](#32-positive-effects)
+    - [3.3 Negative Effects](#33-negative-effects)
+    - [3.4 Features Leading to Different Outcomes](#34-features-leading-to-different-outcomes)
   - [Question 4](#question-4)
   - [Question 5](#question-5)
 - [Conclusion](#conclusion)
@@ -79,105 +79,89 @@ additional research.
 
 Analyze how gamification could shape an organisation’s culture. Explain which type(s) of culture may be strengthened, and why? Using evidence from the case.
 
-Gamification may strengthen enterprising and social cultures by encouraging behaviours that become shared workplace expectations. Organisational culture consists of shared beliefs and values that guide behaviour [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. When games repeatedly reward particular behaviours or make them part of everyday work, they communicate what the organisation values and how employees are expected to act.
+Gamification may strengthen enterprising and social cultures by encouraging behaviours that become shared expectations at work. Organisational culture consists of shared beliefs and values that guide behaviour [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. When games regularly reward certain behaviours or make them part of everyday work, they show employees what the organisation values and how it expects them to act.
 
-The reason why Gamification can strengthen an enterprising culture is because encourages of competition and creative problem solving. These are defining features of enterprising culture in Lecture 6 [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. Case F explains that rewards and competition can increase interest in routine tasks, while game-based problem solving can develop creativity and persistence [Case F, p. 2]. Repeated challenges and recognition for achievement may encourage employees to seek better solutions and improve their performance. Over time, these expectations may make creativity and achievement shared workplace values.
+Gamification can strengthen an enterprising culture by encouraging competition and creative problem solving. Both are key features of an enterprising culture [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. Case F explains that rewards and competition can make routine tasks more interesting, while solving problems in games can help employees become more creative and persistent [Case F, p. 2]. Regular challenges and recognition for achievements may encourage employees to look for better solutions and improve their performance. Over time, creativity and achievement may become shared workplace values.
 
-Gamification can also strengthen a social culture by creating opportunities for colleagues to interact. Social culture emphasises collaboration and trust [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. IBM uses games to help employees who work from home or travel connect with colleagues and stay engaged [Case F, p. 2]. Such interaction may help employees build relationships and feel part of the organisation, supporting a culture in which colleagues cooperate and support one another. The case supports this potential benefit but does not establish that trust or collaboration actually increased.
+Gamification can also strengthen a social culture by giving colleagues more chances to interact. Social culture emphasises collaboration and trust [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4]. IBM uses games to help employees who work from home or travel connect with colleagues and stay engaged [Case F, p. 2]. These interactions may help employees build relationships and feel part of the organisation, making it easier for them to work together and support one another. Whether trust or collaboration increased remains unclear from the case.
 
-Alongside these culture types, gamification can reinforce specific values such as learning and social responsibility. Marriott and Siemens use games for employee training [Case F, p. 1]. Making learning part of game-based activities may encourage employees to treat development as a regular part of work. SAP awards points for environmental activities such as carpooling [Case F, p. 2]. By recognising these activities, the organisation signals that environmental responsibility is valued behaviour.
+Gamification can also reinforce values such as learning and social responsibility. Marriott and Siemens use games for employee training [Case F, p. 1]. Using games for training may help employees see learning as a regular part of their work. SAP awards points for environmental activities such as carpooling [Case F, p. 2]. Awarding points for these activities shows employees that the organisation values environmental responsibility.
 
-However, gamification may weaken a social culture when employees feel compelled to compete. Disney's laundry workers felt pushed to compete even when they did not want to and described productivity tracking as an "electronic whip" [Case F, p. 3]. This pressure may weaken trust in management and make employees prioritise individual results over cooperation.
-
-The culture strengthened therefore depends on the game's design. Competition and creative challenges may strengthen enterprising culture, while opportunities for connection may strengthen social culture. Disney's example shows why managers must consider whether employees experience gamification as encouragement or pressure.
+Gamification may weaken a social culture when employees feel pressured to compete. Disney's laundry workers felt pushed to compete even when they did not want to and described productivity tracking as an "electronic whip" [Case F, p. 3]. This pressure may weaken trust in management and lead employees to put individual results ahead of working together.
 
 ### Question 2
 
-The organisational culture iceberg model differentiates between core culture and observable culture [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, pp. 8–9]. Core culture encompasses the values, beliefs, and assumptions that dictate behavior, while observable culture encompasses visible activities and symbols. Consequently, gamification practices can offer insight into the priorities of an organisation. Nevertheless, a single practice does not guaranty that all members share the associated values. The subsequent links are interpretations of the evidence in Case F, rather than verified statements of the core values of each organisation.
+The organisational culture iceberg model differentiates between core culture and observable culture. Core culture encompasses the values, beliefs, and assumptions that dictate behavior, while observable culture encompasses visible activities and symbols. Consequently, gamification practices can offer insight into the priorities of an organisation. Nevertheless, a single practice does not guaranty that all members share the associated values. The subsequent links are interpretations of the evidence in Case F, rather than verified statements of the core values of each organisation.
 
 | Organisation and observable gamification practice | Underlying value or priority suggested | Link between practice and value |
 | --- | --- | --- |
-| Unilever [Case F - Gamification.pdf, p. 1]: Candidates participate in games that evaluate their communication style, personality, and problem-solving abilities | Performance excellence | The assessment criteria indicate which capabilities are crucial in the recruitment process. The utilization of these capabilities to inform the selection process may indicate a focus on recruiting individuals who can enhance the organisation's performance |
-| Marriott [Case F - Gamification.pdf, p. 1]: A Facebook-based game that introduces potential employees to hospitality career paths and provides support for current employees' training | Personal growth and development | By incorporating career exploration and training into a game, it is possible to convey the importance of learning and development and to encourage participation in these activities |
-| IBM [Case F - Gamification.pdf, p. 2]: Employees who frequently travel or work from home are able to maintain engagement and connect with their colleagues through the use of games | Teamwork and interpersonal connection | Opportunities to preserve colleague relationships are generated by shared interaction, regardless of physical distance. Although the case does not establish an increase in trust or collaboration, this may support teamwork |
-| SAP [Case F - Gamification.pdf, p. 2]: Employees accumulate points for environmental initiatives, including carpooling | Social responsibility | Points are a visual representation of environmentally responsible decisions that are regarded as desirable. The expectation that employees will contribute to environmental objectives may be reinforced by repeated recognition |
-| Disney [Case F - Gamification.pdf, p. 3]: The productivity of laundry workers is monitored through gamification techniques, which have been reported to induce feelings of competition | Efficiency and managerial control | Measurable productivity may be prioritized through the monitoring of individual output. The descriptions of an "electronic whip" by employees indicate a potential conflict between this priority and the well-being of the employees |
+| Unilever: Candidates participate in games that evaluate their communication style, personality, and problem-solving abilities | Performance excellence | The assessment criteria indicate which capabilities are crucial in the recruitment process. The utilization of these capabilities to inform the selection process may indicate a focus on recruiting individuals who can enhance the organisation's performance |
+| Marriott: A Facebook-based game that introduces potential employees to hospitality career paths and provides support for current employees' training | Personal growth and development | By incorporating career exploration and training into a game, it is possible to convey the importance of learning and development and to encourage participation in these activities |
+| IBM: Employees who frequently travel or work from home are able to maintain engagement and connect with their colleagues through the use of games | Teamwork and interpersonal connection | Opportunities to preserve colleague relationships are generated by shared interaction, regardless of physical distance. Although the case does not establish an increase in trust or collaboration, this may support teamwork |
+| SAP: Employees accumulate points for environmental initiatives, including carpooling | Social responsibility | Points are a visual representation of environmentally responsible decisions that are regarded as desirable. The expectation that employees will contribute to environmental objectives may be reinforced by repeated recognition |
+| Disney: The productivity of laundry workers is monitored through gamification techniques, which have been reported to induce feelings of competition | Efficiency and managerial control | Measurable productivity may be prioritized through the monitoring of individual output. The descriptions of an "electronic whip" by employees indicate a potential conflict between this priority and the well-being of the employees |
 
 The practices that are manifested above are detailed in Case F. The lecture's distinction between observable and core culture informs analytical interpretations of their connections to underlying values. These examples demonstrate the potential for gamification to both reflect and reinforce organisational priorities. SAP's points acknowledge environmentally responsible behavior, whereas Unilever's assessment criteria specify which competencies are valued. IBM's shared activities offer an alternative mechanism: opportunities for interaction may foster relationships rather than individual competition. Consequently, cultural messages are conveyed through the activities and assessments that organisations provide, in addition to the rewards they offer. Disney emphasises the significance of distinguishing between intended priorities and employee experience. A productivity-orientated system may be perceived as a source of pressure rather than motivation. This does not establish that the organisation as a whole lacks trust or respect; rather, it suggests a potential conflict between the system's priorities and the well-being of its employees. In general, gamification is only conducive to cultural alignment when its regulations, acknowledged behaviors, and employee experience are in accordance with the organisation's objectives.
 
 ### Question 3
 
-#### 3.1 Workplace Example: Advantages and Disadvantages
+Positive and Negative Effects of Gamification on Workplace Culture
 
-Unilever changed its graduate recruitment into a digital process. Applicants complete an online form and take 13 game-based tests lasting about 20 minutes. The tests measure problem-solving, personality and communication skills, and successful applicants move to a video interview and an assessment centre (Stephan & Erickson, 2017). This system can make recruitment faster and more interesting, but it may also be unclear, unfair or too dependent on technology.
+#### 3.1 Workplace Examples
 
-#### 3.2 Positive Impacts
+Case F presents different workplace uses of gamification. Unilever uses digital games to assess job applicants, IBM uses gaming to connect remote and travelling employees, and SAP awards points for sales and environmental activities. In contrast, Disney used gamification to track laundry workers’ productivity. These examples show that similar systems can produce different cultural outcomes depending on their design and implementation.
 
-Workplace/Company
+#### 3.2 Positive Effects
 
-- It can process many applications quickly.
+Gamification can make routine work more interesting and increase employee motivation. Rewards and challenges may increase employees’ enthusiasm and energy, while problem-solving games can support critical thinking, creativity, persistence and resilience (Tsang, 2026, pp. 1–2).
 
-- It gives all applicants the same assessment process.
+IBM’s system helps remote employees stay connected and engaged. SAP uses points to direct attention towards sales and environmental goals, while Unilever’s digital recruitment process allows the company to assess more applicants efficiently. These practices may support a workplace culture that values learning, participation and innovation. However, different game elements can produce different motivational outcomes, so organisations must select them carefully (Sailer et al., 2017).
 
-- It helps the company create a modern and innovative image.
+#### 3.3 Negative Effects
 
-Applicants/Employees
+Gamification may create negative outcomes when competition and monitoring become too strong. Case F warns that it can produce unhealthy competition and damage workplace relationships ("Case F: Gamification," 2026).
 
-- It makes recruitment more interesting and engaging.
+Disney demonstrates this risk. Its laundry workers had their productivity tracked and reported feeling pushed, with little “breathing space.” They described the system as an “electronic whip” because they felt forced to compete even when they did not want to ("Case F: Gamification," 2026).
 
-- pplicants can show their problem-solving and communication skills.
+This example shows how gamification may change from a motivational tool into a form of control. Excessive monitoring and forced competition may reduce employee autonomy and trust. Self-determination theory also suggests that motivation and well-being are stronger when employees experience autonomy, competence and social connection rather than pressure and control (Deci & Ryan, 2000).
 
-- Feedback and progress reports help applicants understand their performance.
+#### 3.4 Features Leading to Different Outcomes
 
-#### 3.3 Negative Impacts
+Positive outcomes are more likely when activities are meaningful and employees’ goals overlap with organisational goals. Gamification should encourage learning, cooperation and useful feedback instead of focusing mainly on competition.
 
-Workplace/Company
+Clear rules, fair measures and reasonable limits on monitoring are also important. Systems based on forced participation, constant tracking and individual comparison are more likely to create pressure and conflict. Research confirms that gamification outcomes depend on both the context and the people using the system (Hamari et al., 2014).
 
-- Algorithm bias may cause the company to reject suitable applicants (Raghavan et al., 2020).
-
-- Depending too much on scores may ignore experience, creativity and human judgement.
-
-- An unfair system may harm the company’s reputation and create legal problems.
-
-Applicants/Employees
-
-- Rejected applicants may not receive a clear reason or a chance to appeal.
-
-- People with disabilities or different ways of thinking may be disadvantaged.
-
-- Being constantly scored may cause stress and make applicants feel unsafe.
-
-#### 3.4 Conclusion
-
-Gamification can improve participation and recruitment efficiency, but the system must be fair, clear and related to the job. Unilever should use it as a supporting tool and keep human review and an appeal process.
+Finally, managers should combine gamification with personal feedback and recognition. Points and badges cannot replace supportive leadership. As Case F explains, gamification may improve performance, but it cannot compensate for poor management ("Case F: Gamification," 2026).
 
 ### Question 4
 
 Select ONE organisation (Unilever, SAP, Disney or equivalent) and investigate its use of gamification. Evaluate its effectiveness in terms of its purpose, design, implementation, and outcomes, using evidence from multiple external sources.
 
-Google
+Google is a great example of a company that has applied gamification to its system. At Google, there is a system called gThanks, an internal peer-recognition system where employees can thank colleagues through Kudos and give stronger recognition through rewards such as Peer Bonuses. Its purpose is to encourage appreciation, collaboration, and helpful behaviour by allowing employees, not only managers, to recognise valuable contributions (Bock, 2015).
 
-Google uses gThanks, an internal peer-recognition system where employees can thank colleagues through Kudos and give stronger recognition through rewards such as Peer Bonuses. Its purpose is to encourage appreciation, collaboration and helpful behaviour by allowing employees—not only managers—to recognise valuable contributions.
+This purpose aligns with Herzberg’s two-factor theory. The lecture identifies recognition as a satisfier that can increase job satisfaction and motivation. A meaningful word such as thank-you can explain why an employee’s contribution matters. However, recognition cannot compensate for poor working conditions or unfair workloads, which the lecture treats as hygiene factors. [Lecture 8, pages 15–16]
 
-This purpose fits Herzberg’s two-factor theory. The lecture identifies recognition as a satisfier that can increase job satisfaction and motivation. A meaningful thank-you explains why an employee’s contribution matters. However, recognition cannot compensate for poor working conditions or unfair workloads, which the lecture treats as hygiene factors. [Lecture 8, pages 15–16]
+Design:
 
-Design: gThanks uses gamification elements such as recognition, rewards, immediate feedback and social visibility. Its main strength is simplicity: employees select a colleague, write a short thank-you message and send recognition. This low-friction design fits Google’s culture of employee autonomy and openness. Laszlo Bock, Google’s former Head of People Operations, describes gThanks as a way to make peer recognition quick and easy. Bock, Work Rules!, Chapter 10.
+gThanks uses gamification elements such as recognition, rewards, immediate feedback and social visibility. Its main strength is simplicity: employees select a colleague, write a short thank-you message, and send recognition. This low-friction design fits Google’s culture of employee autonomy and openness. Laszlo Bock, Google’s former Head of People Operations, describes gThanks to make peer recognition quick and easy (Bock, 2015).
 
-Using the lecture’s positive reinforcement theory, appreciation following a helpful action may encourage employees to repeat it. The design is strongest when recognition identifies a specific contribution and follows it promptly. Nevertheless, popularity could affect who receives recognition. Under equity theory, employees who contribute equally but receive fewer rewards may perceive unfairness and reduce their effort. These are design risks, rather than proven outcomes at Google. [Lecture 8, pages 18–20 and 28–31]
+Using the lecture’s positive reinforcement theory, appreciation following a helpful action may encourage employees to repeat it. The design is strongest when recognition identifies a specific contribution and follows it promptly. Nevertheless, popularity could affect those who receive recognition. Under equity theory, employees who contribute equally but receive fewer rewards may perceive unfairness and reduce their effort. These are design risks, rather than proven outcomes at Google. [Lecture 8, pages 18–20 and 28–31]
 
-Implementation: Recognition is integrated into everyday work rather than limited to formal performance reviews. Employees can recognise contributions that managers may not directly observe. Evidence also shows Google has used Kudos and Peer Bonuses to recognise employees who share skills and support colleagues.
+Implementation:
 
-Outcomes: The system achieved strong adoption. After Google simplified gThanks, Kudos usage increased by 460%, with more than 1,000 employees using it each day.
+Recognition is integrated into everyday work rather than limited to formal performance reviews. Employees can recognise contributions that managers may not directly observe. And peer Bonuses are subject to light managerial review and rules that limit reciprocity and manager-to-subordinate awards (Bonusly, 2023; Compt, 2023).
 
-However, high usage does not necessarily prove improved productivity or engagement. Research also shows that highly public peer-recognition systems can create social comparison, causing some employees to feel less appreciated.
+Outcomes:
 
-Overall, gThanks appears effective at increasing recognition and supporting Google’s collaborative culture, although fairness and excessive competition remain potential weaknesses.
+The system achieved strong adoption. After Google simplified gThanks, Kudos usage increased by 460%, with more than 1,000 employees using it each day (Bock, 2015). However, high usage does not necessarily prove improved productivity or engagement. Research also shows that highly public peer-recognition systems can create social comparison, causing some employees to feel less appreciated (Black et al., 2024; Wang, 2023). Therefore, while gThanks successfully increased the volume of recognition and fits Google’s culture of openness, evidence that it strengthened collaboration remains limited, and fairness risks persist.
+
+Overall, gThanks is effective at raising recognition and supporting Google’s collaborative culture but slightly limited by fairness and excessive competition as potential weaknesses.
 
 ### Question 5
 
 Based on your findings for the selected organization, develop an improved gamification strategy. Propose specific changes based on the issues identified in your research, explain how they would better support organisational goals and culture, and suggest how their effectiveness could be measured.
 
-Google could improve gThanks through four changes:
+Based on the limitations identified in Question 4, limited evidence of improved collaboration and the risk of social comparison, Google could improve gThanks through four changes:
 
 1. Make recognition visibility optional. Employees could choose private, team or public recognition. This would reduce negative social comparison while maintaining appreciation.
 
@@ -187,21 +171,31 @@ Google could improve gThanks through four changes:
 
 1. Avoid competitive leaderboards. gThanks should reward meaningful contributions rather than ranking employees by points or number of recognitions. Research suggests leaderboards can make lower-ranked employees feel less appreciated.
 
-Google should measure effectiveness using participation rates, number of unique employees recognised, cross-team recognition, employee satisfaction and perceived fairness, rather than simply counting the number of Kudos given.
+To measure the effectiveness, Google could pilot an improved version of gThanks.
 
-The improved system would preserve the simplicity of gThanks while making recognition fairer, less competitive and more closely connected to Google's organisational goals and culture.
+The pilot design:
+
+- Baseline period 6 weeks: collect current metrics under the existing gThanks system.
+
+- Pilot period 12 weeks: introduce the improved version.
+
+- Comparison teams: parallel teams continue using the current system during the pilot period.
+
+The key measures:
+
+- Participation rate (percentage of employees who give or receive recognition at least once).
+
+- Number of unique employees recognised.
+
+- Share of recognition that is cross-team.
+
+- Employee survey items on perceived fairness of recognition and feeling appreciated.
+
+- Self-reported and peer-reported helping behaviour, especially cross-team.
+
+Success would be indicated by higher cross-team recognition, stable or improved fairness scores, and no decline in overall participation relative to comparison teams. And if the pilot shows positive results on fairness and cross-team helping without reducing usage, the changes could be rolled out more widely. In the end, this approach can turn the recommendations into a testable improvement to the current system.
 
 ## Conclusion
-
-In summary, gamification can influence employee behavior and gradually change organizational culture. When companies consistently reward collaboration, knowledge sharing, and proactively helping colleagues, employees gain a clearer understanding of what the company values. Google's gThanks, through Kudos and Peer Bonuses, transforms values ​​like collaboration and mutual support into every day, visible behaviors, thus primarily strengthening Google's social culture.
-
-However, gThanks is not without its problems. Public recognition can lead to comparisons among employees, and recognition results can be influenced by interpersonal relationships, popularity, and job visibility. This can make some employees feel their efforts are not being recognized or even question the fairness of the system. High usage does not necessarily mean the system will improve actual work performance.
-
-Google allows employees to freely choose private, team, or public recognition, linking each commendation to company values ​​such as collaboration, innovation, mentoring colleagues, or knowledge sharing. The company should also encourage cross-team recognition, avoid using leaderboards, and regularly understand employees' perceptions of the system's fairness. In addition to counting Kudos, Google should also measure how many different employees receive recognition, the proportion of cross-team commendations, and employee satisfaction and collaboration.
-
-The most important lesson from this case is that gamification is merely a management tool. Its positive impact depends not on the number of points, rewards, or badges, but on whether the system is fair, aligns with the company's true goals, and whether employees are willing to accept and participate.
-
-New version by Albert:
 
 This report identifies two interconnected lessons regarding gamification in engineering management. Initially, the behaviors that gamification evaluates, promotes, and rewards have the potential to impact organizational culture. The Case F examples indicate that games may facilitate learning, interpersonal connection, and social responsibility. Nevertheless, Disney's productivity-tracking example demonstrates that employees may perceive gamification as a form of pressure rather than encouragement. Therefore, its cultural influence is contingent upon the design, implementation, alignment with the intended values, and employee.
 
@@ -213,8 +207,22 @@ The primary takeaway is that gamification is a management tool, not a replacemen
 
 ## Reference
 
+Black, P. W., Cecchini, M. S., & Newman, A. H. (2024). When being recognized makes employees feel less appreciated: Evidence regarding when and why peer-to-peer recognition could backfire. Accounting, Organizations and Society, 113, Article 101565. <https://doi.org/10.1016/j.aos.2024.101565>
+
+Bock, L. (2015). Work rules!: Insights from inside Google that will transform how you live and lead. Twelve.
+
+Deci, E. L., & Ryan, R. M. (2000). The “what” and “why” of goal pursuits: Human needs and the self-determination of behavior. Psychological Inquiry, 11(4), 227–268. <https://doi.org/10.1207/S15327965PLI1104_01>
+
 Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). [From game design elements to gamefulness: Defining “gamification.”](https://doi.org/10.1145/2181037.2181040) In Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments (pp. 9–15). Association for Computing Machinery.
+
+Hamari, J., Koivisto, J., & Sarsa, H. (2014). Does gamification work? A literature review of empirical studies on gamification. In 2014 47th Hawaii International Conference on System Sciences (pp. 3025–3034). IEEE. <https://doi.org/10.1109/HICSS.2014.377>
 
 Review42 Editorial. (2026, June 16). [Gamification statistics (2026).](https://resources.review42.com/gamification-statistics/) Review42.
 
+Sailer, M., Hense, J. U., Mayr, S. K., & Mandl, H. (2017). How gamification motivates: An experimental study of the effects of specific game design elements on psychological need satisfaction. Computers in Human Behavior, 69, 371–380. <https://doi.org/10.1016/j.chb.2016.12.033>
+
 Sayeed, A. B. (2026, February 20). [What is the history of gamification—A comprehensive overview.](https://mycred.me/blog/history-of-gamification/) myCred.
+
+Tsang, P. (2026). Case F: Gamification: Taking games to work [Course case study]. ENG3003 Engineering Management.
+
+Wang, L. (2023). When peer recognition backfires: The impact of peer information on subsequent helping behavior. Accounting Perspectives, 22(3), 341–374. <https://doi.org/10.1111/1911-3838.12335>
