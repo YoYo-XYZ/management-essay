@@ -38,7 +38,7 @@ Group 20
     - [3.4 Conclusion](#34-conclusion)
   - [Question 4](#question-4)
   - [Question 5](#question-5)
-- [Conclusion](#conclusion)
+- [Conclusion](#conclusion1)
 - [Reference](#reference)
 
 ## Abstract/executive summary
@@ -107,47 +107,19 @@ The practices that are manifested above are detailed in Case F. The lecture's di
 
 #### 3.1 Workplace Example: Advantages and Disadvantages
 
-Unilever changed its graduate recruitment into a digital process. Applicants complete an online form and take 13 game-based tests lasting about 20 minutes. The tests measure problem-solving, personality and communication skills, and successful applicants move to a video interview and an assessment centre (Stephan & Erickson, 2017). This system can make recruitment faster and more interesting, but it may also be unclear, unfair or too dependent on technology.
+Unilever used short games to assess problem-solving skills and decide which graduate applicants should move to the next stage [Case F, p. 1] (Stephan & Erickson, 2017, "Lessons from the front lines"). When games are used with existing staff, their design can affect how colleagues work together.
 
 #### 3.2 Positive Impacts
 
-Workplace/Company
-
-- It can process many applications quickly.
-
-- It gives all applicants the same assessment process.
-
-- It helps the company create a modern and innovative image.
-
-Applicants/Employees
-
-- It makes recruitment more interesting and engaging.
-
-- pplicants can show their problem-solving and communication skills.
-
-- Feedback and progress reports help applicants understand their performance.
+IBM used games to help remote and travelling staff stay in touch with colleagues [Case F, p. 2]. The extra contact could help staff feel part of the team and make it easier to ask for help. This could support a social culture, which emphasises collaboration and trust [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4].
 
 #### 3.3 Negative Impacts
 
-Workplace/Company
-
-- Algorithm bias may cause the company to reject suitable applicants (Raghavan et al., 2020).
-
-- Depending too much on scores may ignore experience, creativity and human judgement.
-
-- An unfair system may harm the company’s reputation and create legal problems.
-
-Applicants/Employees
-
-- Rejected applicants may not receive a clear reason or a chance to appeal.
-
-- People with disabilities or different ways of thinking may be disadvantaged.
-
-- Being constantly scored may cause stress and make applicants feel unsafe.
+Disney tracked the individual output of laundry workers, who felt pressured to keep up with one another [Case F, p. 3]. A worker may be less willing to stop and help a colleague if it means falling behind. This could weaken the trust that supports a social culture [ENG3003_L6_Ch 12 Organizational Change and Development.pdf, p. 4].
 
 #### 3.4 Conclusion
 
-Gamification can improve participation and recruitment efficiency, but the system must be fair, clear and related to the job. Unilever should use it as a supporting tool and keep human review and an appeal process.
+IBM used games to make it easier for colleagues to interact, while Disney's individual output tracking put pressure on workers to compete. If an organisation wants employees to help each other in everyday work, the game should give them chances to interact and make it worthwhile to cooperate.
 
 ### Question 4
 
@@ -155,39 +127,33 @@ Select ONE organisation (Unilever, SAP, Disney or equivalent) and investigate it
 
 Google
 
-Google uses gThanks, an internal peer-recognition system where employees can thank colleagues through Kudos and give stronger recognition through rewards such as Peer Bonuses. Its purpose is to encourage appreciation, collaboration and helpful behaviour by allowing employees—not only managers—to recognise valuable contributions.
+Google introduced gThanks to make it easy for employees to thank colleagues for work that managers might miss (Bock, 2015). Peer recognition also gave Google a way to encourage staff to share knowledge across teams (Chen & Barolak, 2020).
 
-This purpose fits Herzberg’s two-factor theory. The lecture identifies recognition as a satisfier that can increase job satisfaction and motivation. A meaningful thank-you explains why an employee’s contribution matters. However, recognition cannot compensate for poor working conditions or unfair workloads, which the lecture treats as hygiene factors. [Lecture 8, pages 15–16]
+**Design.** Visible Kudos worked as symbolic awards, while Peer Bonuses offered a higher level of recognition. The public awards and levels of recognition give gThanks game-like features in a work setting, consistent with Deterding et al.'s (2011) definition of gamification. Herzberg's two-factor theory treats recognition as a satisfier that can increase job satisfaction and motivation [ENG3003_L8_Ch 16 Motivation Theory and Practice.pdf, pp. 15–16]. Prompt praise for a specific helpful action may encourage employees to repeat it through positive reinforcement [ENG3003_L8_Ch 16 Motivation Theory and Practice.pdf, pp. 29 and 31].
 
-Design: gThanks uses gamification elements such as recognition, rewards, immediate feedback and social visibility. Its main strength is simplicity: employees select a colleague, write a short thank-you message and send recognition. This low-friction design fits Google’s culture of employee autonomy and openness. Laszlo Bock, Google’s former Head of People Operations, describes gThanks as a way to make peer recognition quick and easy. Bock, Work Rules!, Chapter 10.
+**Implementation.** Bock (2015, ch. 10, "Make it easy to spread the love") describes a simple process. Employees selected a colleague, chose Kudos and wrote a short thank-you message. Chen and Barolak (2020, ch. 3, "Incentives and recognition", including note 11) describe Kudos as public acknowledgement and Peer Bonuses as formal recognition with a cash award for bigger contributions. They give the example of a Peer Bonus for answering questions on a mailing list, where the answers helped people beyond the employee's team.
 
-Using the lecture’s positive reinforcement theory, appreciation following a helpful action may encourage employees to repeat it. The design is strongest when recognition identifies a specific contribution and follows it promptly. Nevertheless, popularity could affect who receives recognition. Under equity theory, employees who contribute equally but receive fewer rewards may perceive unfairness and reduce their effort. These are design risks, rather than proven outcomes at Google. [Lecture 8, pages 18–20 and 28–31]
+**Outcomes.** Bock (2015, ch. 10, "Make it easy to spread the love") reports that after Google launched gThanks, Kudos use rose by 460% compared with a year earlier and more than 1,000 employees visited the new version each day. This shows uptake. Its effects on collaboration, productivity and engagement still need testing.
 
-Implementation: Recognition is integrated into everyday work rather than limited to formal performance reviews. Employees can recognise contributions that managers may not directly observe. Evidence also shows Google has used Kudos and Peer Bonuses to recognise employees who share skills and support colleagues.
-
-Outcomes: The system achieved strong adoption. After Google simplified gThanks, Kudos usage increased by 460%, with more than 1,000 employees using it each day.
-
-However, high usage does not necessarily prove improved productivity or engagement. Research also shows that highly public peer-recognition systems can create social comparison, causing some employees to feel less appreciated.
-
-Overall, gThanks appears effective at increasing recognition and supporting Google’s collaborative culture, although fairness and excessive competition remain potential weaknesses.
+In a separate study, Black et al. (2024, abstract and discussion) found that public feeds and leaderboards can make employees feel less appreciated by prompting social comparison. Under equity theory, employees who see colleagues receive more recognition for similar effort may feel unfairly treated and reduce their effort [ENG3003_L8_Ch 16 Motivation Theory and Practice.pdf, pp. 18–20].
 
 ### Question 5
 
 Based on your findings for the selected organization, develop an improved gamification strategy. Propose specific changes based on the issues identified in your research, explain how they would better support organisational goals and culture, and suggest how their effectiveness could be measured.
 
-Google could improve gThanks through four changes:
+Google could test four changes to gThanks.
 
-1. Make recognition visibility optional. Employees could choose private, team or public recognition. This would reduce negative social comparison while maintaining appreciation.
+1. Let employees choose private, team or public recognition. A private option would reduce exposure to the comparisons associated with public feeds (Black et al., 2024, abstract and discussion).
 
-1. Connect recognition to company values. Employees could select reasons such as collaboration, innovation, mentoring, or knowledge sharing. This would encourage behaviours that directly support Google's goals.
+1. Add tags for mentoring and knowledge sharing. These tags would make it easier to recognise contributions that Google encourages in its engineering teams (Chen & Barolak, 2020, ch. 3, "Incentives and recognition").
 
-1. Reward cross-team collaboration. Give additional recognition for helping employees outside one's immediate team. This would discourage recognition from becoming limited to close colleagues.
+1. Add a category for cross-team help. Ask employees to describe what the colleague did and how it helped the other team. This would recognise contributions like the answers shared on the mailing list in Question 4.
 
-1. Avoid competitive leaderboards. gThanks should reward meaningful contributions rather than ranking employees by points or number of recognitions. Research suggests leaderboards can make lower-ranked employees feel less appreciated.
+1. Avoid competitive leaderboards to limit the pressure to compare how much recognition employees receive (Black et al., 2024, abstract and discussion).
 
-Google should measure effectiveness using participation rates, number of unique employees recognised, cross-team recognition, employee satisfaction and perceived fairness, rather than simply counting the number of Kudos given.
+Google should test the changes for eight weeks with selected teams while similar teams use the current process. To establish a baseline and measure change, survey both groups before and after the pilot. Ask how often employees helped someone on another team and how fair they found recognition in their role. Track the share of employees recognised at least once as a measure of reach.
 
-The improved system would preserve the simplicity of gThanks while making recognition fairer, less competitive and more closely connected to Google's organisational goals and culture.
+Google should use the baseline to set an improvement target for cross-team helping before the pilot. Extend the changes to more teams if helping meets the target relative to the comparison teams and fairness ratings stay at or above baseline in each role. If either condition falls short, revise the design and retest. This follows the control process of setting standards, measuring performance, comparing results and taking corrective action [ENG3003_L6_Ch 9 Fundamentals of Control.pdf, pp. 14–18].
 
 ## Conclusion1
 
@@ -201,8 +167,18 @@ The primary takeaway is that gamification is a management tool, not a replacemen
 
 ## Reference
 
+Black, P. W., Cecchini, M. S., & Newman, A. H. (2024). [When being recognized makes employees feel less appreciated: Evidence regarding when and why peer-to-peer recognition could backfire.](https://doi.org/10.1016/j.aos.2024.101565) *Accounting, Organizations and Society, 113*, Article 101565.
+
+Bock, L. (2015). [*Work Rules! Insights from Inside Google That Will Transform How You Live and Lead.*](https://fliphtml5.com/awujv/duui/Work_Rules_%28Insights_from_Inside_Google_That_Will_Transform_How_You_Live_and_Lead./) Twelve.
+
+[*Case F: Gamification: Taking Games to Work.*](<Case F - Gamification.pdf>) (n.d.). ENG3003 Engineering Management case handout, The Hong Kong Polytechnic University.
+
+Chen, N., & Barolak, M. (2020). [Knowledge sharing.](https://abseil.io/resources/swe-book/html/ch03.html#incentives_and_recognition) In T. Winters, T. Manshreck, & H. Wright (Eds.), *Software Engineering at Google: Lessons Learned from Programming Over Time* (ch. 3). O'Reilly Media.
+
 Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). [From game design elements to gamefulness: Defining “gamification.”](https://doi.org/10.1145/2181037.2181040) In Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments (pp. 9–15). Association for Computing Machinery.
 
 Review42 Editorial. (2026, June 16). [Gamification statistics (2026).](https://resources.review42.com/gamification-statistics/) Review42.
 
 Sayeed, A. B. (2026, February 20). [What is the history of gamification—A comprehensive overview.](https://mycred.me/blog/history-of-gamification/) myCred.
+
+Stephan, M., & Erickson, R. (2017, February 27). [Talent acquisition: Enter the cognitive recruiter.](https://www.deloitte.com/us/en/insights/topics/talent/human-capital-trends/2017/predictive-hiring-talent-acquisition.html) Deloitte Insights.
