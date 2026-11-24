@@ -12,7 +12,8 @@
     .quiz-group { border-top: 1px solid #e2e8f0; padding: 8px 0; }
     .quiz-group summary { cursor: pointer; font-weight: 600; }
     .quiz-path { display: block; color: #64748b; font-size: 12px; font-weight: 400; }
-    .quiz-terms { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; min-height: 32px; }
+    .quiz-terms { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; min-height: 40px; padding: 6px; border: 1px dashed #94a3b8; border-radius: 5px; }
+    .quiz-bank-label { color: #64748b; font-size: 12px; }
     .quiz-term, .quiz-blank, .quiz-check { font: inherit; cursor: pointer; border-radius: 5px; padding: 4px 8px; }
     .quiz-term { border: 1px solid #60a5fa; background: #eff6ff; color: #1e3a8a; }
     .quiz-term[aria-pressed=true] { outline: 2px solid #1d4ed8; }
@@ -88,7 +89,7 @@
     if (search) { search.value = ''; search.dispatchEvent(new Event('input', { bubbles: true })); }
     panel.replaceChildren();
     const heading = document.createElement('h2'); heading.textContent = 'Quiz';
-    const instructions = document.createElement('p'); instructions.textContent = 'Drag a term to a blank, or select a term and then a blank. Check each group when you are ready.';
+    const instructions = document.createElement('p'); instructions.textContent = 'Drag terms between blanks and the word bank, or select a term and then a blank. Check each group when you are ready.';
     const progress = document.createElement('p'); progress.setAttribute('role', 'status');
     panel.append(heading, instructions, progress);
     let completed = 0;
@@ -104,11 +105,13 @@
     const summary = document.createElement('summary');
     summary.append(document.createTextNode(group.parent.text.replace(/\*\*/g, '')));
     const path = document.createElement('span'); path.className = 'quiz-path'; path.textContent = [group.parent.chapter, group.parent.section].filter(Boolean).join(' › '); summary.append(path);
-    const pool = document.createElement('div'); pool.className = 'quiz-terms'; pool.setAttribute('aria-label', 'Available terms');
+    const bankLabel = document.createElement('span'); bankLabel.className = 'quiz-bank-label'; bankLabel.textContent = 'Word bank (drop terms here)';
+    const pool = document.createElement('div'); pool.className = 'quiz-terms'; pool.setAttribute('aria-label', 'Word bank');
+    const returnButton = document.createElement('button'); returnButton.type = 'button'; returnButton.className = 'quiz-check'; returnButton.textContent = 'Return selected term to word bank'; returnButton.hidden = true;
     const definitions = document.createElement('ol'); definitions.className = 'quiz-definitions';
     const check = document.createElement('button'); check.type = 'button'; check.className = 'quiz-check'; check.textContent = 'Check answers';
     const feedback = document.createElement('span'); feedback.className = 'quiz-feedback'; feedback.setAttribute('aria-live', 'polite');
-    details.append(summary, pool, definitions, check, feedback); panel.append(details);
+    details.append(summary, bankLabel, pool, returnButton, definitions, check, feedback); panel.append(details);
     const tokens = group.terms.map((term, id) => ({ term, id, slot: null }));
     const slots = [];
     let selected = null, checked = false, done = false;
@@ -122,20 +125,29 @@
         button.addEventListener('click', () => { if (selected !== null) place(selected, slot); else if (slot.token !== null) select(slot.token); });
         button.addEventListener('dragover', event => event.preventDefault());
         button.addEventListener('drop', event => { event.preventDefault(); const id = Number(event.dataTransfer.getData('text/plain')); if (event.dataTransfer.getData('application/x-quiz-group') === details.dataset.quizId && Number.isInteger(id) && tokens[id]) place(id, slot); });
+        button.addEventListener('dragstart', event => { if (slot.token === null) { event.preventDefault(); return; } startDrag(event, slot.token); });
         li.append(button); last = match.index + match[0].length;
       }
       li.append(document.createTextNode(definition.text.slice(last))); definitions.append(li);
     });
     details.dataset.quizId = String(panel.children.length);
     const order = shuffle(tokens);
+    function startDrag(event, id) { event.dataTransfer.setData('text/plain', String(id)); event.dataTransfer.setData('application/x-quiz-group', details.dataset.quizId); }
+    pool.addEventListener('dragover', event => event.preventDefault());
+    pool.addEventListener('drop', event => { event.preventDefault(); const id = Number(event.dataTransfer.getData('text/plain')); if (event.dataTransfer.getData('application/x-quiz-group') === details.dataset.quizId && Number.isInteger(id) && tokens[id]) returnToBank(id); });
+    returnButton.addEventListener('click', () => { if (selected !== null) returnToBank(selected); });
     function select(id) { selected = selected === id ? null : id; render(); }
+    function changed() { selected = null; checked = false; if (done) { done = false; onProgress(-1); } feedback.textContent = ''; render(); }
+    function returnToBank(id) { const token = tokens[id]; if (!token.slot) return; token.slot.token = null; token.slot = null; changed(); }
     function place(id, slot) {
       const token = tokens[id];
-      if (token.slot) token.slot.token = null;
-      if (slot.token !== null) tokens[slot.token].slot = null;
-      slot.token = id; token.slot = slot; selected = null; checked = false;
-      if (done) { done = false; onProgress(-1); }
-      feedback.textContent = ''; render();
+      const previous = token.slot;
+      if (previous === slot) { selected = null; render(); return; }
+      const displaced = slot.token === null ? null : tokens[slot.token];
+      if (previous) previous.token = displaced ? displaced.id : null;
+      if (displaced) displaced.slot = previous;
+      slot.token = id; token.slot = slot;
+      changed();
     }
     function render() {
       pool.replaceChildren();
@@ -143,17 +155,19 @@
         const button = document.createElement('button'); button.type = 'button'; button.className = 'quiz-term'; button.draggable = true;
         button.textContent = token.term; button.setAttribute('aria-pressed', String(selected === token.id));
         button.addEventListener('click', () => select(token.id));
-        button.addEventListener('dragstart', event => { event.dataTransfer.setData('text/plain', String(token.id)); event.dataTransfer.setData('application/x-quiz-group', details.dataset.quizId); });
+        button.addEventListener('dragstart', event => startDrag(event, token.id));
         pool.append(button);
       });
       slots.forEach(slot => {
         const token = slot.token === null ? null : tokens[slot.token];
+        slot.button.draggable = !!token;
         slot.button.textContent = token ? token.term : 'Choose term';
         slot.button.setAttribute('aria-label', token ? `Placed: ${token.term}. Select to move.` : 'Empty answer. Select a term, then this blank.');
         slot.button.classList.toggle('correct', checked && !!token && token.term === slot.answer);
         slot.button.classList.toggle('incorrect', checked && (!token || token.term !== slot.answer));
         slot.button.setAttribute('aria-pressed', String(!!token && selected === token.id));
       });
+      returnButton.hidden = selected === null || !tokens[selected].slot;
     }
     check.addEventListener('click', () => {
       checked = true;
