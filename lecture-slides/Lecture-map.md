@@ -1,6 +1,6 @@
 # Lecture map
 
-Textbook: Schermerhorn, Bachrach and Wright, *Management*, 5th Canadian edition (2020). Red headings are bullets; blue terms and in-text figure references are nested beneath them. An "Overview" bullet groups terms that appear before the first red heading in a section.
+Textbook: Schermerhorn, Bachrach and Wright, *Management*, 5th Canadian edition (2020). Red headings are bullets; blue terms and in-text figure references are sub-bullets.
 
 The map was extracted from the specified textbook chapters by following their two-column reading order, recording red headings as bullets and blue in-text terms and figure references as sub-bullets, then checking the extraction against the PDF.
 
@@ -72,8 +72,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - Figure 1.5
 
 ## 1.4 The Management Process
-- Overview
-    - management process
 - Functions of Management
     - Figure 1.6
     - Planning
@@ -88,8 +86,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - social capital
 
 ## 1.5 Learning How to Manage
-- Overview
-    - learning
 - Lifelong Learning
     - lifelong learning
 - Management Skills
@@ -105,8 +101,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 2.1 Classical Management Approaches
-- Overview
-    - Figure 2.1
 - Scientific Management
     - scientific management
     - motion study
@@ -116,9 +110,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - Figure 2.2
 
 ## 2.2 Behavioural Management Approaches
-- Overview
-    - Figure 2.3
-    - organizational behaviour
 - Follett’s Organizations as Communities
 - The Hawthorne Studies
     - Hawthorne effect
@@ -155,9 +146,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 3.1 Ethics
-- Overview
-    - Ethics
-    - ethical behaviour
 - Laws and Values as Influences on Ethical Behaviour
     - values
     - Terminal values
@@ -204,9 +192,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - whistleblower
 
 ## 3.4 Social Responsibility
-- Overview
-    - stakeholders
-    - Figure 3.7
 - Stakeholder Management
     - Stakeholder power
     - Demand legitimacy
@@ -239,8 +224,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 8.1 Why and How Managers Plan
-- Overview
-    - planning
 - Importance of Planning
     - Figure 8.1
 - The Planning Process
@@ -319,8 +302,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - Market control
 
 ## 9.2 The Control Process
-- Overview
-    - Figure 9.3
 - Step 1—Establish Objectives and Standards
     - Pareto Principle
     - output standards
@@ -443,9 +424,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 11.1 Organizing as a Management Function
-- Overview
-    - Organizing
-    - Figure 11.1
 - What Is Organization Structure?
     - organization structure
 - Formal Structures
@@ -478,8 +456,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - Figure 11.6
 
 ## 11.3 Team and Network Organization Structures
-- Overview
-    - agile organizations
 - Team Structures
     - team structures
     - Figure 11.7
@@ -496,8 +472,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - latent organization
 
 ## 11.4 Organizational Designs
-- Overview
-    - Organizational design
 - Contingency in Organizational Design
     - bureaucracy
     - Figure 11.10
@@ -523,8 +497,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 12.1 Organizational Cultures
-- Overview
-    - organizational culture
 - Understanding Organizational Cultures
     - Figure 12.1
     - strong organizational cultures
@@ -590,9 +562,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 14.1 The Nature of Leadership
-- Overview
-    - leadership
-    - Figure 14.1
 - Leadership and Power
     - Power
     - Figure 14.2
@@ -664,9 +633,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 16.1 Individual Needs and Motivation
-- Overview
-    - motivation
-    - needs
 - Hierarchy of Needs Theory
     - lower-order needs
     - higher-order needs
@@ -722,8 +688,6 @@ The map was extracted from the specified textbook chapters by following their tw
 - Punishment
 
 ## 16.4 Motivation and Job Design
-- Overview
-    - job design
 - Job Simplification
     - Job simplification
     - automation
@@ -745,11 +709,6 @@ The map was extracted from the specified textbook chapters by following their tw
 
 
 ## 17.1 Teams in Organizations
-- Overview
-    - team
-    - Teamwork
-    - Figure 17.1
-    - interdependence
 - Teamwork Pros
     - synergy
 - Teamwork Cons
@@ -777,10 +736,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - Team building
 
 ## 17.3 How Teams Work
-- Overview
-    - effective team
-    - Figure 17.3
-    - Team Effectiveness Equation
 - Team Inputs
     - Team diversity
 - Stages of Team Development
@@ -805,8 +760,6 @@ The map was extracted from the specified textbook chapters by following their tw
     - restricted communication network
 
 ## 17.4 Decision-Making in Teams
-- Overview
-    - Decision-making
 - Ways Teams Make Decisions
 - Advantages and Disadvantages of Team Decisions
 - Groupthink
