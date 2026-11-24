@@ -4,9 +4,8 @@
   const svgNS = 'http://www.w3.org/2000/svg';
   const style = document.createElement('style');
   style.textContent = `
-    .quiz-toggle, .quiz-progress { position: fixed; z-index: 22; right: 12px; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; }
-    .quiz-toggle { top: 65px; padding: 9px 14px; cursor: pointer; }
-    .quiz-progress { top: 108px; max-width: min(340px, calc(100vw - 48px)); padding: 8px 10px; }
+    .quiz-toggle { position: fixed; z-index: 22; top: 65px; right: 12px; padding: 9px 14px; cursor: pointer; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; }
+    .quiz-progress { position: fixed; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     .quiz-progress[hidden] { display: none; }
     .quiz-drag-preview { position: fixed; z-index: 1000; pointer-events: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: #1e3a8a; font-family: Arial, sans-serif; font-weight: 600; line-height: 1; white-space: nowrap; }
   `;
@@ -106,7 +105,7 @@
   }
   function draw() {
     const root = view.shadowRoot;
-    const focused = root.activeElement?.closest('.quiz-map-slot');
+    const focused = root.activeElement?.closest('.quiz-map-control');
     const focusedGroup = focused?.dataset.group, focusedSlot = focused?.dataset.slot;
     root.querySelectorAll('.quiz-map-control').forEach(element => element.remove());
     const byLine = new Map();
@@ -125,7 +124,12 @@
         spans.forEach((span, index) => { if (definition.slots[index]) drawSlot(target, span, definition.slots[index]); });
       });
     });
-    if (focusedGroup !== undefined) root.querySelector(`.quiz-map-slot[data-group="${focusedGroup}"][data-slot="${focusedSlot}"]`)?.focus();
+    if (focusedGroup !== undefined) {
+      const selector = focusedSlot === undefined
+        ? `.quiz-map-check[data-group="${focusedGroup}"]`
+        : `.quiz-map-slot[data-group="${focusedGroup}"][data-slot="${focusedSlot}"]`;
+      root.querySelector(selector)?.focus();
+    }
   }
   function addControl(target, x, y, width, height, label, className) {
     const control = svgElement('g', { class: `quiz-map-control ${className}`, role: 'button', tabindex: '0', transform: target.text.getAttribute('transform') || '', 'aria-label': label });
@@ -192,15 +196,27 @@
     const x = (Number(last.getAttribute('x')) || 0) + last.getComputedTextLength() + 8;
     const baseline = Number(last.getAttribute('y')) || 16;
     const { control, rect, text } = addControl(target, x, baseline - 16, 53, 19, 'Check answers for this group', 'quiz-map-check');
+    control.dataset.group = String(group.index);
+    control.setAttribute('aria-pressed', String(group.checked));
     text.textContent = group.done ? 'Done' : 'Check';
     if (group.done) { rect.setAttribute('stroke', '#15803d'); rect.setAttribute('fill', '#f0fdf4'); }
+    else if (group.checked) { rect.setAttribute('fill', '#dbeafe'); }
     const check = () => {
-      group.checked = true; group.done = group.slots.every(slot => slot.value === slot.answer); selected = null;
+      group.checked = !group.checked;
       const correct = group.slots.filter(slot => slot.value === slot.answer).length;
-      updateProgress(`${correct} of ${group.slots.length} correct in this group${group.done ? '. Group completed.' : '. Try again.'}`); scheduleDraw();
+      group.done = group.checked && correct === group.slots.length;
+      selected = null;
+      updateProgress(group.checked
+        ? `${correct} of ${group.slots.length} correct in this group${group.done ? '. Group completed.' : '. Try again.'}`
+        : 'Answer feedback hidden.');
+      scheduleDraw();
     };
-    control.addEventListener('pointerdown', event => { event.preventDefault(); event.stopPropagation(); check(); });
-    control.addEventListener('keydown', event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); event.stopPropagation(); check(); } });
+    control.addEventListener('click', check);
+    control.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault(); event.stopPropagation();
+      if (!event.repeat) check();
+    });
   }
   function clearDrag() {
     if (drag?.source) drag.source.style.visibility = '';
