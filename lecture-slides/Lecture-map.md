@@ -2,6 +2,8 @@
 
 Textbook: Schermerhorn, Bachrach and Wright, *Management*, 5th Canadian edition (2020). Red headings are bullets; blue terms and in-text figure references are nested beneath them. An "Overview" bullet groups terms that appear before the first red heading in a section.
 
+The map was extracted from the specified textbook chapters by following their two-column reading order, recording red headings as bullets and blue in-text terms and figure references as sub-bullets, then checking the extraction against the PDF.
+
 # Chapter 1 Management Today
 
 
