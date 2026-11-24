@@ -7,7 +7,7 @@ import tempfile
 folder = Path(__file__).resolve().parent
 source = (folder / 'Lecture-map.md').read_text(encoding='utf-8-sig')
 source = source.removeprefix('# Lecture map\n').removeprefix('# Lecture map\r\n')
-frontmatter = '---\ntitle: Lecture map\nmarkmap:\n  foldLevel: 1\n---\n\n'
+frontmatter = '---\ntitle: Lecture map\n---\n\n'
 output = folder / 'Lecture-map.html'
 with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.md', prefix='.lecture-map-', dir=folder, delete=False) as temp:
     temp.write(frontmatter + source)
