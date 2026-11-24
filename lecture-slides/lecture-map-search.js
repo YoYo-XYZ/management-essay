@@ -80,6 +80,13 @@
     if (!panel.hidden && !path.includes(panel) && !path.includes(openButton)) closeSearch();
   });
   view?.addEventListener('wheel', event => {
+    if (event.composedPath().some(
+      element => element.classList?.contains('markmap-toolbar'),
+    )) {
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
     if (event.ctrlKey || event.metaKey || !view.mm) return;
     if (nativePan) { event.stopPropagation(); return; }
     event.preventDefault();
@@ -91,6 +98,11 @@
     // Cancel any in-progress focus animation before applying both scroll axes.
     view.mm.zoomTo(transform.translate(-dx * unit / transform.k, -dy * unit / transform.k), false);
   }, { capture: true, passive: false });
+  // Markmap consumes zoom gestures on its SVG. Suppress browser zoom when
+  // a gesture falls on a fixed control or the map reaches a zoom limit.
+  document.addEventListener('wheel', event => {
+    if (view?.mm && (event.ctrlKey || event.metaKey)) event.preventDefault();
+  }, { passive: false });
   const mapStyle = document.createElement('style');
   mapStyle.textContent = '[data-search-selected] tspan { fill: #9a3412 !important; font-weight: 700 !important; } [data-search-selected] > path { stroke: #f59e0b !important; stroke-width: 4px !important; }';
   view?.shadowRoot?.append(mapStyle);
