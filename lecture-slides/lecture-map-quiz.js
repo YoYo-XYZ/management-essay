@@ -4,7 +4,7 @@
   const svgNS = 'http://www.w3.org/2000/svg';
   const style = document.createElement('style');
   style.textContent = `
-    .quiz-toggle { position: fixed; z-index: 22; top: 65px; right: 12px; padding: 9px 14px; cursor: pointer; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; }
+    .quiz-toggle { padding: 9px 14px; cursor: pointer; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; }
     .quiz-progress { position: fixed; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     .quiz-progress[hidden] { display: none; }
     .quiz-drag-preview { position: fixed; z-index: 1000; pointer-events: none; box-sizing: border-box; display: flex; align-items: center; justify-content: center; color: #1e3a8a; font-family: Arial, sans-serif; font-weight: 600; line-height: 1; white-space: nowrap; }
@@ -14,7 +14,9 @@
   toggle.type = 'button'; toggle.className = 'quiz-toggle'; toggle.textContent = 'Quiz'; toggle.setAttribute('aria-pressed', 'false');
   const progress = document.createElement('div');
   progress.className = 'quiz-progress'; progress.hidden = true; progress.setAttribute('role', 'status'); progress.setAttribute('aria-live', 'polite');
-  document.body.append(toggle, progress);
+  const controls = document.querySelector('.lecture-map-controls');
+  (controls || document.body).append(toggle);
+  document.body.append(progress);
 
   function makeGroups(markdown) {
     const lines = markdown.split(/\r?\n/), nodes = [], stack = [];

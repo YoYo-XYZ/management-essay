@@ -5,9 +5,11 @@
     .lecture-map-viewport::-webkit-scrollbar { display: none; }
     .lecture-map-surface { width: 100000px; height: 100000px; }
     .lecture-map-viewport markmap-view { position: sticky; left: 0; top: 0; display: block; width: 100vw; height: 100vh; }
-    .lecture-search { position: fixed; z-index: 20; top: 12px; right: 12px; width: min(390px, calc(100vw - 24px)); font: 14px system-ui, sans-serif; color: #1f2937; }
+    .lecture-map-controls { position: fixed; z-index: 22; top: 12px; right: 12px; display: flex; flex-direction: column; align-items: flex-end; gap: 14px; pointer-events: none; }
+    .lecture-map-controls > * { pointer-events: auto; }
+    .lecture-search { width: min(390px, calc(100vw - 24px)); font: 14px system-ui, sans-serif; color: #1f2937; }
     .lecture-search[hidden], .lecture-search-open[hidden] { display: none; }
-    .lecture-search-open { position: fixed; z-index: 20; top: 12px; right: 12px; padding: 9px 14px; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; cursor: pointer; }
+    .lecture-search-open { padding: 9px 14px; border: 1px solid #94a3b8; border-radius: 7px; background: white; color: #1f2937; box-shadow: 0 4px 18px #0002; font: 14px system-ui, sans-serif; cursor: pointer; }
     .lecture-search-box { background: white; border: 1px solid #cbd5e1; border-radius: 9px; box-shadow: 0 4px 18px #0002; padding: 10px; }
     .lecture-search-row { display: flex; gap: 6px; }
     .lecture-search input { flex: 1; min-width: 0; padding: 8px; font: inherit; border: 1px solid #94a3b8; border-radius: 5px; }
@@ -31,7 +33,10 @@
   openButton.textContent = 'Search';
   openButton.setAttribute('aria-label', 'Open lecture map search');
   openButton.hidden = true;
-  document.body.append(panel, openButton);
+  const controls = document.createElement('div');
+  controls.className = 'lecture-map-controls';
+  controls.append(panel, openButton);
+  document.body.append(controls);
   const input = panel.querySelector('input');
   const status = panel.querySelector('.lecture-search-status');
   const list = panel.querySelector('.lecture-search-results');
@@ -77,7 +82,7 @@
   openButton.addEventListener('click', openSearch);
   document.addEventListener('pointerdown', event => {
     const path = event.composedPath();
-    if (!panel.hidden && !path.includes(panel) && !path.includes(openButton)) closeSearch();
+    if (!panel.hidden && !path.includes(controls)) closeSearch();
   });
   view?.addEventListener('wheel', event => {
     if (event.composedPath().some(
