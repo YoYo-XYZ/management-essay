@@ -15,7 +15,9 @@ with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', suffix='.md', prefi
 try:
     subprocess.run(['npx.cmd' if os.name == 'nt' else 'npx', '--yes', '@markmap/cli@1.1.1', str(input_path), '--no-open', '-o', str(output)], check=True)
     html = output.read_text(encoding='utf-8')
-    script = (folder / 'lecture-map-search.js').read_text(encoding='utf-8-sig')
+    script = '\n'.join((folder / name).read_text(encoding='utf-8-sig') for name in (
+        'lecture-map-search.js', 'lecture-map-quiz.js',
+    ))
     if html.count('</body>') != 1 or '</script' in script.lower():
         raise ValueError('Unexpected generated HTML or unsafe script content')
     output.write_text(html.replace('</body>', '<script>\n' + script + '\n</script>\n</body>'), encoding='utf-8')
