@@ -130,7 +130,7 @@
       const selector = focusedSlot === undefined
         ? `.quiz-map-check[data-group="${focusedGroup}"]`
         : `.quiz-map-slot[data-group="${focusedGroup}"][data-slot="${focusedSlot}"]`;
-      root.querySelector(selector)?.focus();
+      root.querySelector(selector)?.focus({ preventScroll: true });
     }
   }
   function addControl(target, x, y, width, height, label, className) {
