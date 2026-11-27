@@ -2,7 +2,7 @@
 
 This workspace is for **ENG3003 Engineering Management Group Project (Case F: Gamification)**.
 
-- **Project description**. Write a 1–2 page individual reflection on how your group planned, organised, monitored progress, and led the Case F project. Use the submitted group report as background. The author's contribution in group report is section Q3.
+- **Project description**. Write a 1–2 page individual reflection on how your group planned, organised, monitored progress, and led the Case F project. Use the submitted group report as background. The author's contribution in group report is section Q1.
 
 - **Project goal:** Complete the assignment according to acheive high grading scores.
 
