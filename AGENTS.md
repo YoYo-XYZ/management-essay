@@ -2,7 +2,8 @@
 
 This workspace is for **ENG3003 Engineering Management Group Project (Case F: Gamification)**.
 
-- **Project description:** Use `Group20-Report.md` to draft a formal group case study report of up to 10 pages that answers all five questions on workplace gamification using case evidence, engineering management theory, and external research. Submit a separate individual reflection paper of about 1-2 pages on how your group planned, organised, monitored progress, and led the project.
+- **Project description**. Write a 1–2 page individual reflection on how your group planned, organised, monitored progress, and led the Case F project. Use the submitted group report as background. The author's contribution in group report is section Q3.
+
 - **Project goal:** Complete the assignment according to acheive high grading scores.
 
 ## Project Resources
@@ -11,7 +12,7 @@ This workspace is for **ENG3003 Engineering Management Group Project (Case F: Ga
 - **Assingment grading criteria** `Assinment Requirement.pdf` is the source of truth for the grading criteria.
 - **Lecture slides Reference material:** Use lecture slides in `lecture-slides/ENG3003_L*.pdf` as supplementary reference material.
 - **Reference material:** `Case F - Gamification.pdf` is the main source for reference content, used as the main source of knowledge.
--**group-report.md:** This is the group report, used as the reference to write the individual report.
+-**Group Report** `group-report.md` This is the group report, used as the reference to write the individual report.
 
 ## Writing Style and Narrative and Tone
 
@@ -32,5 +33,5 @@ This workspace is for **ENG3003 Engineering Management Group Project (Case F: Ga
 
 ## Conventions
 
-- **Draft location:** Make essay edits in the main Markdown file, typically `main.md`.
+- **Draft location:** Make essay edits in the main Markdown file in `Individual-report.md`.
 - **Citations:** Support factual claims with traceable sources. For lecture slides, cite the exact filename and page number.
