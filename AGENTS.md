@@ -11,6 +11,7 @@ This workspace is for **ENG3003 Engineering Management Group Project (Case F: Ga
 - **Assingment grading criteria** `Assinment Requirement.pdf` is the source of truth for the grading criteria.
 - **Lecture slides Reference material:** Use lecture slides in `lecture-slides/ENG3003_L*.pdf` as supplementary reference material.
 - **Reference material:** `Case F - Gamification.pdf` is the main source for reference content, used as the main source of knowledge.
+-**group-report.md:** This is the group report, used as the reference to write the individual report.
 
 ## Writing Style and Narrative and Tone
 
