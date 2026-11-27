@@ -38,12 +38,14 @@ Group 20
     - [3.4 Conclusion](#34-conclusion)
   - [Question 4](#question-4)
   - [Question 5](#question-5)
-- [Conclusion](#conclusion1)
+- [Conclusion](#conclusion)
 - [Reference](#reference)
 
 ## Abstract/executive summary
 
 This report explores how gamification impacts organizational culture. Gamification incorporates game elements such as points, rewards, challenges, and competition into recruitment, training, and daily work. The example in Case F shows that gamification can make work more fun, increase employee engagement and productivity, but poorly designed gamification can also lead to stress, unfairness, and excessive competition.
+
+Use of Kudos rose after Google launched gThanks, and its effect on cross-team helping remains unclear. We recommend an eight-week pilot to test whether changes to peer recognition improve cross-team helping and maintain perceived fairness.
 
 ## Introduction
 
@@ -55,25 +57,17 @@ Gamification refers to “the use of game design elements in non-game contexts�
 
 #### 1.1.2 Rise in Modern Management
 
-Digital technology has allowed gamification to expand into recruitment, training, performance management and customer engagement. The global gamification market was estimated at US$34.43 billion in 2026, reflecting growing business interest (Review42 Editorial, 2026). Case F includes examples such as Unilever using games in recruitment, IBM supporting remote employees and SAP rewarding sales and environmental activities (“Case F: Gamification,” 2026).
+Digital technology has allowed gamification to expand into recruitment, training, performance management and customer engagement. The global gamification market was estimated at US$34.43 billion in 2026, reflecting growing business interest (Review42 Editorial, 2026). Case F includes Unilever using games in recruitment [Case F, p. 1], IBM supporting remote employees and SAP using games for sales and environmental activities [Case F, p. 2].
 
 #### 1.1.3 Motivation and Surveillance
 
-Gamification can increase motivation by providing goals, feedback and rewards. However, performance tracking and leaderboards may also create pressure and excessive monitoring. Disney employees described their productivity-tracking system as an “electronic whip,” showing that gamification can motivate employees or become a form of control depending on its design (“Case F: Gamification,” 2026).
+Gamification can increase motivation by providing goals, feedback and rewards. However, performance tracking and leaderboards may also create pressure and excessive monitoring. Disney employees described their productivity-tracking system as an “electronic whip,” showing that gamification can motivate employees or become a form of control depending on its design [Case F, p. 3].
 
 ### 1.2 Key Engineering Management Issues
 
 The main issue is aligning game objectives with organisational goals. Employees may focus on earning points instead of work quality or teamwork if rewards are poorly designed. Managers must also balance performance monitoring with employee autonomy, fairness and well-being.Gamification should therefore be evaluated through work quality, engagement, teamwork and employee satisfaction, rather than productivity alone. It should support effective management and organisational culture instead of replacing good management.
 
 ## Analysis
-
-a) Address every assigned discussion question.
-
-b) Use relevant engineering management concepts, tools, or theories.
-
-c) Support arguments with evidence from the case and, where appropriate,
-
-additional research.
 
 ### Question 1
 
@@ -133,7 +127,7 @@ Google introduced gThanks to make it easy for employees to thank colleagues for 
 
 **Implementation.** Bock (2015, ch. 10, "Make it easy to spread the love") describes a simple process. Employees selected a colleague, chose Kudos and wrote a short thank-you message. Chen and Barolak (2020, ch. 3, "Incentives and recognition", including note 11) describe Kudos as public acknowledgement and Peer Bonuses as formal recognition with a cash award for bigger contributions. They give the example of a Peer Bonus for answering questions on a mailing list, where the answers helped people beyond the employee's team.
 
-**Outcomes.** Bock (2015, ch. 10, "Make it easy to spread the love") reports that after Google launched gThanks, Kudos use rose by 460% compared with a year earlier and more than 1,000 employees visited the new version each day. This shows uptake. Its effects on collaboration, productivity and engagement still need testing.
+**Outcomes.** Bock (2015, ch. 10, "Make it easy to spread the love") reports that after Google launched gThanks, Kudos use rose by 460% compared with a year earlier and more than 1,000 employees visited the new version each day. The increase shows that gThanks gained uptake after launch. The available evidence leaves its effect on cross-team helping, engagement, and productivity uncertain.
 
 In a separate study, Black et al. (2024, abstract and discussion) found that public feeds and leaderboards can make employees feel less appreciated by prompting social comparison. Under equity theory, employees who see colleagues receive more recognition for similar effort may feel unfairly treated and reduce their effort [ENG3003_L8_Ch 16 Motivation Theory and Practice.pdf, pp. 18–20].
 
@@ -155,9 +149,9 @@ Google should test the changes for eight weeks with selected teams while similar
 
 Google should use the baseline to set an improvement target for cross-team helping before the pilot. Extend the changes to more teams if helping meets the target relative to the comparison teams and fairness ratings stay at or above baseline in each role. If either condition falls short, revise the design and retest. This follows the control process of setting standards, measuring performance, comparing results and taking corrective action [ENG3003_L6_Ch 9 Fundamentals of Control.pdf, pp. 14–18].
 
-## Conclusion1
+## Conclusion
 
-This report identifies two interconnected lessons regarding gamification in engineering management. Initially, the behaviors that gamification evaluates, promotes, and rewards have the potential to impact organizational culture. The Case F examples indicate that games may facilitate learning, interpersonal connection, and social responsibility. Nevertheless, Disney's productivity-tracking example demonstrates that employees may perceive gamification as a form of pressure rather than encouragement. Therefore, its cultural influence is contingent upon the design, implementation, alignment with the intended values, and employee.
+This report identifies two interconnected lessons regarding gamification in engineering management. Initially, the behaviors that gamification evaluates, promotes, and rewards have the potential to impact organizational culture. The Case F examples indicate that games may facilitate learning, interpersonal connection, and social responsibility. Nevertheless, Disney's productivity-tracking example demonstrates that employees may perceive gamification as a form of pressure rather than encouragement. Its effect on culture depends on how managers design and implement it, which values it reinforces, and how employees experience it.
 
 Second, effectiveness cannot be demonstrated solely through participation. According to the Google analysis, gThanks has experienced an increase in usage and offers a convenient mechanism for peer recognition. Nevertheless, the usage evidence examined in this report fails to demonstrate enhancements in productivity, engagement, or collaboration. Rather than being treated as assumed outcomes at Google, popularity, social comparison, and job visibility should be regarded as potential risks that necessitate investigation.
 
